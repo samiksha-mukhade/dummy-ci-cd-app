@@ -34,4 +34,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Push Docker Image
-        run: docker push samiksha321/dummy-ci-cd-app:latest
+        run: docker push samiksha321/dummy-ci-cd-app:latest 
