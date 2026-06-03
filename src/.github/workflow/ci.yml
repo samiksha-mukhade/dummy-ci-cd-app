@@ -23,3 +23,6 @@ jobs:
 
       - name: Build Project
         run: mvn clean install
+
+      - name: Build Docker Image
+        run: docker build -t dummy-ci-cd-app .
